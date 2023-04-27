@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  width: 100%;
+}
+
+
+.main {
+  width: 350px;
+  display: flex;
+  /* justify-content: center; */
+  margin: 50px;
+  flex-direction: column;
+}
+.subDiv {
+  max-width: 350px;
+  /* height: 500px; */
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  flex-direction: column;
+  /* align-items:flex-start; */
+  justify-content:space-between;
+  padding: 20px;
+}
+.title, .text {
+  color: gray;
+  padding: 10px;
+}
+.line1 {
+  width: 100%;
+  background-color: red;
+  height: 2px;
+}
+.line2 {
+  width: 100%;
+  background-color: yellow;
+  height: 2px;
+}
+.line3 {
+  width: 100%;
+  background-color: green;
+  height: 2px;
+}
+.boxBlue {
+  border: 1px solid blue;
+  margin-top: 30px;
+  
+}
+.boxRed {
+  border: 1px solid red;
+  margin-top: 30px;
+  
+}
+.boxYellow {
+  border: 1px solid yellow;
+  margin-top: 30px;
+  
+}
+.boxGreen {
+  border: 1px solid green;
+  margin-top: 30px;
+  
+}
